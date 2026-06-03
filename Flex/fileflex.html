@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .navbar{
+            display :flex;
+            height: 30px;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: lightseagreen;
+            color: aliceblue;
+        }
+        .content{
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            flex-direction: column;
+            position: absolute;
+        }
+        b{
+            font-size: 60px;
+        }
+         .p{
+            font-size: 30px;
+        }
+        .chatbox{
+            background-image: url(https://static.vecteezy.com/system/resources/previews/020/168/832/original/chatbot-icon-design-free-vector.jpg);
+            background-size: cover;
+            position: fixed;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            border: 2px solid #1e1e;
+            right: 5px;
+            bottom: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div>home</div>
+            <div>explore</div>
+            <div>contact</div>
+            <div>about</div>
+            <div>search</div>
+        </nav>
+    </header>
+    <div class="content">
+        <b>Welcome to the website</b><br>
+        <div class="p">this is description</div>
+        <div class="chatbox"></div>
+    </div>
+    <div>
+
+    </div>
+</body>
+</html>
