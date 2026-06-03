@@ -15,7 +15,7 @@
     background-color: white;
 }
 :hover.heart{
-    background-color: rgb(239, 231, 231);
+    background-color: rgb(138, 63, 63);
 }
 .heart{
     border-radius:100%;
